@@ -21,4 +21,10 @@ go to the location of my-new-project and remove existing files from them, and pa
 
 go to visual studio and then open this my-new-project folder in a new workspace, and in the termina type the path to go to my-new-project and type expo start which should start the development server. 
 
+if any error related to npm are found simply install that particular node module using the cmd 
+
+npm install
+
+this will download all the dependencies mentioned in package.json 
+
 refer to https://docs.expo.io/versions/latest/ for any doubts related to starting the application. 
