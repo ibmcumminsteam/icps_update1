@@ -19,9 +19,9 @@ Clone/ Download the repository
 
 go to the location of my-new-project and remove existing files from them, and paste all the files cloned from this repository. 
 
-go to visual studio and then open this my-new-project folder in a new workspace, and in the termina type the path to go to my-new-project and type expo start which should start the development server. 
+go to visual studio and then open this my-new-project folder in a new workspace, and in the terminal type the path to go to my-new-project and type expo start which should start the development server. 
 
-if any error related to npm are found simply install that particular node module using the cmd 
+if any errors related to npm are found simply use the command 
 
 npm install
 
