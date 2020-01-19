@@ -47,20 +47,30 @@ Steps:
 1. Connect to open vpn 
 
 2. Create a database using following commands:
+
   create database virtsys;
   use virtsys;
   create table pattern(id int, name varchar(50) not null, pattern_info varchar(21884) not null, primary key(id));
+  
+  
 3. To run the python script (curl.py):
+
   On line no. 19 of curl.py, change the password to password of mysql database
   Make sure the open vpn is connected
   Run the python script. This may take several minutes
+  
+  
 4. PHP scripts
+
   Paste the PHP scripts in the C:\xampp\htdocs folder
   In the index.php file change the password of $HostPass to the database password and save it
   In the indexkeys.php file change the password of $HostPass to the database password and save it
   To check if the scripts are running correctly, open the browser and enter http://localhost:8080/
   Now generate the ngrok link for the same port no ie 8080 here, and check it in the browser.( can follow the last two steps     of the 6th point)
+  
+  
 5. XAMPP Server
+
   https://www.apachefriends.org/download.html
   Click on the suitable file for the download and launch the installer
   XAMPP offers a variety of components that you can install, such as MySQL, phpMyAdmin, PHP, Apache, and more. For the most     part, you will be using most of these components, as such it’s recommended to leave the default options.
@@ -70,7 +80,10 @@ Steps:
   Then click Finish and select the language.
   Open the XAMPP Control Panel by pinning the executive file to the task bar.
   To configure the XAMPP server ports, in the control panel , click on config on extreme top right. Ports can be changed         either 8080, 8000 or default 80 port. Same is applicable MySQL server.
+  
+  
 6. NGROK
+
   https://ngrok.com/download
   The above link has the instruction and the installer file, however third step is not essential.
   Once the ngrok is downloaded, is should be opened from the location where it was downloaded.
