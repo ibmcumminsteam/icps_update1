@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { StyleSheet, View, ScrollView, Image,  Dimensions,Button} from 'react-native';
 import { Text, Card,Header, ListItem} from 'react-native-elements';
-import MyHeader from './components/MyHeader' ;
+import MyHeader from './screens/MyHeader' ;
 
 // import ProjHeader from './components/ProjHeader' ;
 // import Monitoring from './components/Monitoring' ;
