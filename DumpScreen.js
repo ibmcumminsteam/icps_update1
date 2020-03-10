@@ -67,17 +67,13 @@ return (
 {list.map(list => 
 <Text>
 Application ID:{"\t"}{list.app_id}{"\n"}
-Application Type:{"\t"}{list.app_type}{"\n"}
-Application Name:{"\t"}{list.app_name}{"\n"}
-Creator:{"\t"}{list.creator}{"\n"}
+
 _____________________________________
 </Text>
 )}
-{/* {list.map(list => <Text></Text>)}
-{list.map(list => <Text></Text>)}
-{list.map(list => <Text></Text>)} */}
 
-{/* <Text></Text> */}
+
+
 
 </View>
 </ScrollView>

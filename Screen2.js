@@ -21,7 +21,7 @@ import VirtualApplicationInstancesScreen from './screens/VirtualApplicationInsta
 import VirtualMachineScreen from './screens/VirtulMachineScreen';
 
 import Screen1 from './Screen1';
-import MyHeader from './components/MyHeader' ;
+import MyHeader from './screens/MyHeader' ;
 
 
 function Separator() {

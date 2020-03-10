@@ -15,6 +15,7 @@ import CloudScreen from './screens/CloudScreen';
 import System from './screens/System';
 import Hardware from './screens/Hardware';
 
+
 import { HeaderBackButton } from 'react-navigation-stack';
 // import ApiKeys from './constants/ApiKeys';
 // import * as firebase from 'firebase';
@@ -41,6 +42,7 @@ import { HeaderBackButton } from 'react-navigation-stack';
 //   });
 const navigationOptions = ({ navigation }) => ({
   header: null, 
+  disableGesture: true
 })
       
 // var PushNotification = require('react-native-push-notification');
@@ -51,14 +53,15 @@ const AppNavigator = createStackNavigator(
             Screen1: {screen: Screen1, navigationOptions},
             Screen2: {screen: Screen2, navigationOptions},  
             Screen3:{screen: Screen3, navigationOptions},  
-            Login: {screen: Login, navigationOptions}
+            Login: {screen: Login, navigationOptions},
+            
         },  
         {  
             initialRouteName: "Login"  
         } ,{
           mode: 'modal',
           headerMode: 'none',
-          headerVisible: false, headerMode: 'none',
+          headerVisible: false, headerMode: 'none', 
         } 
 );  
 
@@ -83,6 +86,7 @@ const DrawNav = createDrawerNavigator({
     Hardware: {
       screen: Hardware
     },
+    
     
 }, {
   mode: 'modal',
